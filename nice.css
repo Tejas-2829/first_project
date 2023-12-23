@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: rebeccapurple;
+    width: -webkit-fill-available;
+    padding: 8px 0;
+    align-items: center;
+    height: 10%;
+    z-index: 2;
+}
+
+.logo{
+    width: 41%;
+    padding-left: 16px;
+}
+
+.nav_list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* background-color: black; */
+    width: 12%;
+    align-items: center;
+}
+
+.nav_list a:hover{
+    background-color: #abcbe7 ;
+}
+
+.banner{
+    height: 50rem;
+    position: relative;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/680a5c4bb828559da16b70e3/568min.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 4rem 0 0rem 0;
+    width: -webkit-fill-available;
+    overflow: hidden;
+}
+.text1{
+    position: absolute;
+    top: 10%;
+    left: 26%;
+    font-size: 2rem;
+    z-index: 1;
+    color: white;
+}
+
+.text{
+    /* background-color: bisque; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* width: -webkit-fill-available; */
+    font-size: 1.8rem;
+    top: 7%;
+    color: white;
+    left: 14%;
+}
+
+.layout1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* .reverse-row {
+    flex-direction: column-reverse;
+} */
+.el1{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/573d76233e095c80946d58c9/et.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.layout2-img {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/58c5811aa1435147bb4eb37f/45min.jpg);
+}
+.layout3-img{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/ce3fea61b6645235bfbbedef/450163PEY1K1616.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.el2{
+    background-color: white
+    /* height: 20%; */
+}
+
+.white-background {
+    background-color: white;
+}
+
+/* .line{
+    border-bottom: 5px solid #35cfe7;
+    width: 71px;
+} */
+
+.about{
+    margin: 72px 0px 0px 155px;
+    font-size: x-large;
+}
+
+.t1{
+    font-size: 2.5rem;
+    padding: 51px 0px 0px 1px;  
+}
+
+.t1 p{
+    font-size: 1rem;
+    width: 71%;
+    padding: 0 0 0 4rem;
+
+}
+
+.t1 h1{
+    text-align: center;
+}
+
+.btn{
+    border-style: solid;
+    width: 40%;
+    margin: 38px 0px 34px 23px;
+    font-size: 1rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    border-color: aqua;
+    margin: 3rem 0px 3rem 7.3rem;
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.scroll{
+    display: flex;
+    max-width: 100rem;
+    height: 22rem;
+    list-style: none;
+    overflow:scroll; 
+}
+
+.scrl1{
+    min-width: 25%;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/870ec8eaf40e581bba49b509/rtg.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.scrl2{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/24573fb8241e546b92cc96eb/peeledbananaonbluebackground_232147931342.jpg);
+    background-size: cover;
+    background-position: center;
+
+}.scrl3{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/5f2dce200cf45460ad1b9023/316001P8RWRN65.jpg);
+    background-size: cover;
+    background-position: center;
+
+}.scrl4{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/2a8daddb266f54d18944523e/piecesofpineapplesandkiwinearcitruses_232147931475.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.content{
+    text-align: center;
+    padding-top: 5rem;
+}
+.content p{
+    font-size: 1.5rem;
+    color: palevioletred;
+}
+.content h1{
+    font-size: 2rem;
+}
+.p_img{
+    display: flex;
+    height: 16rem;
+    list-style: none;
+    justify-content: center;
+}
+.lastimg{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/c42d596474a75ca1aeb4f52c/photo150185677743529877ed80a3dmin.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 31%;
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+}
+.lastimg2{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/a05e89dff8695d25b3045604/Untitled3min.jpg);
+}
+.lastimg3{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/2ebb201a959e5a6584fcd054/9.jpg);
+}
+.lastimg4{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/d4f239f0141d5a2d85976154/x.jpg);
+}
+.lastimg5{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/bc8cb7fa30995d42b5a51f1a/uigyjh.jpg);
+}
+.lastimg6{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/91944e8b55d95ba7ada7ee1c/Untitled5.jpg);
+}
+.dev{
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+.svg{
+    /* border-style: dotted; */
+    display: flex;
+    height: 16.2rem;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.svgimg{
+    background-color: skyblue;
+    width: 42%;
+    height: 16rem;
+    margin: 0rem 0.5rem 1rem 0rem;
+    
+}
+.svgimg2{
+    background-color: rgb(230, 199, 29);
+}
+.svgimg3{
+background-color: palevioletred;
+}
+.svgimg4{
+    background-color: skyblue
+}
+.svgimg i{
+    position: absolute;
+    top: 33%;
+    font-size: 3rem;
+    left: 21%;
+    color: white;
+    overflow: hidden;
+}
+.svgimg2 i{
+    position: absolute;
+    right: -19%;
+}
+.svgimg3 i{
+    position: absolute;
+    top: 33%;
+    font-size: 3rem;
+    left: 22%;
+    color: white;
+}
+.svgimg4 i{
+    position: absolute;
+    right: -6%;
+}
+.svgimg h1{
+    position: absolute;
+    top: 65%;
+    left: 10.5%;
+    color: white;
+    font-size: 1.2rem;
+}
+.svgimg2 h1{
+    position: absolute;
+    right: -27%;
+}
+
+.svgimg3 h1{
+    position: absolute;
+    left: 18%;
+    color: white;
+}
+.svgimg4 h1{
+    position: absolute;
+    right: -30%;
+}
+    .footer{
+        height: 33rem;
+        background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/b90ecfa1c07b58719f32716e/39c1efee-0b29-cd09-8d79-44e25c04758c.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding-top: 11%;
+        font-size: 2rem;
+        color: white;
+    }
+    .name{
+        border-color: white;
+        width: 56%;
+        padding: 1.5% 0% 1.5% 2%;
+        background-color: transparent;
+        border-style: solid;
+        margin: 3%;
+        border-width: 0.3rem;
+    }
+    .email{
+        margin-top: 0%;
+    }
+    .msg{
+        margin-top: 0%;
+        height: 8rem;
+    }
+    .msg ::placeholder{
+        align-items: center;
+        text-align: center;
+    }
+    .lbtn{
+        width: 8rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #e69dc0;
+    }
+
+@media screen and (min-width: 768px){
+    .text{
+        top: 7%;
+        left: 16%;
+        font-size: 3rem;
+    }
+    .text1{
+        top: 10%;
+        left: 32%;
+    }
+    .layout1 {
+        flex-direction: row;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+    .el1 {
+        width: 50%;
+    /* height: 100px; */
+
+    }
+    .el2 {
+        width: 50%;
+        /* height: 100%; */
+    }
+
+    .btn a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .content{
+        text-align: center;
+        padding-top: 5rem;
+    }
+    .content p{
+        font-size: 1.5rem;
+        color: palevioletred;
+    }
+    .content h1{
+        font-size: 3rem;
+    }
+    .p_img{
+        display: flex;
+        height: 16rem;
+        list-style: none;
+        justify-content: center;
+    }
+    .lastimg{
+        background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/c42d596474a75ca1aeb4f52c/photo150185677743529877ed80a3dmin.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 31%;
+        margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+    }
+    .lastimg2{
+        background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/a05e89dff8695d25b3045604/Untitled3min.jpg);
+    }
+    .lastimg3{
+        background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/2ebb201a959e5a6584fcd054/9.jpg);
+    }
+    .lastimg4{
+        background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/d4f239f0141d5a2d85976154/x.jpg);
+    }
+    .lastimg5{
+        background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/bc8cb7fa30995d42b5a51f1a/uigyjh.jpg);
+    }
+    .lastimg6{
+        background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/91944e8b55d95ba7ada7ee1c/Untitled5.jpg);
+    }
+    .dev{
+        margin-top: 6%;
+        margin-bottom: 10%;
+    }
+    .svg{
+        /* border-style: dotted; */
+        display: flex;
+        height: 16.2rem;
+        justify-content: center;
+        list-style: none;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+    }
+    .svgimg{
+        background-color: skyblue;
+        width: 33%;
+        height: 16rem;
+        margin: 0rem 0.5rem 1rem 0rem;
+        
+    }
+    .svgimg2{
+        background-color: rgb(230, 199, 29);
+    }
+    .svgimg3{
+ background-color: palevioletred;
+    }
+    .svgimg4{
+        background-color: skyblue
+    }
+    .svgimg i{
+        position: absolute;
+        top: 33%;
+        font-size: 3rem;
+        left: 29%;
+        color: white;
+        overflow: hidden;
+    }
+    .svgimg2 i{
+        position: absolute;
+        right: -3%;
+    }
+    .svgimg3 i{
+        position: absolute;
+        top: 33%;
+        font-size: 3rem;
+        left: 29%;
+        color: white;
+    }
+    .svgimg4 i{
+        position: absolute;
+        right: -6%;
+    }
+    .svgimg h1{
+        position: absolute;
+        top: 65%;
+        /* font-size: rem; */
+        left: 20.5%;
+        color: white;
+    }
+    .svgimg2 h1{
+        position: absolute;
+        right: -11%;
+    }
+
+    .svgimg3 h1{
+        position: absolute;
+        /* top: 51%; */
+        /* font-size: rem; */
+        left: 25%;
+        color: white;
+    }
+    .svgimg4 h1{
+        position: absolute;
+        right: -13%;
+    }
+    .footer{
+        height: 33rem;
+        background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/b90ecfa1c07b58719f32716e/39c1efee-0b29-cd09-8d79-44e25c04758c.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        padding-top: 11%;
+        font-size: 2rem;
+        color: white;
+    }
+    .name{
+        border-color: white;
+        width: 56%;
+        padding: 1.5% 0% 1.5% 2%;
+        background-color: transparent;
+        border-style: solid;
+        margin: 3%;
+        border-width: 0.3rem;
+    }
+    .email{
+        margin-top: 0%;
+    }
+    .msg{
+        margin-top: 0%;
+        height: 8rem;
+    }
+    .msg ::placeholder{
+        align-items: center;
+        text-align: center;
+    }
+    .lbtn{
+        width: 8rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #e69dc0;
+    }
+}
+
